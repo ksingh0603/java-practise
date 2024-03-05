@@ -1,4 +1,4 @@
-package codings;
+package codings.patterns;
 
 public class StarPattern {
 

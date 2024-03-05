@@ -1,4 +1,4 @@
-package codings;
+package codings.problems;
 
 import java.util.Scanner;
 

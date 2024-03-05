@@ -1,4 +1,4 @@
-package codings.seaching;
+package codings.searching;
 
 public class LinearSearch {
 
