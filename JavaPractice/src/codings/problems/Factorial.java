@@ -8,19 +8,18 @@ public class Factorial {
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt();
 		scanner.close();
-
-		if (num > 0) {
+		int n = num;
+		if (n >= 0) {
 			int fact = 1;
-			while (num > 0) {
-				fact = fact * num;
-				num--;
+			while (n >0) {
+				fact = fact * n;
+				n--;
 			}
 			System.out.println("Factorial of " + num + " is " + fact);
 
 		} else {
 			System.out.println("Sorry mate, factorial of a negative number : " + num + " does not exist !!");
 		}
-
 	}
 
 }
